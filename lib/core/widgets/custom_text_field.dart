@@ -2,8 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import '../constants/app_colors.dart';
 
-/// Accessible Text Field for Dairy Khata.
-/// Supports numeric input, clear labels, high contrast borders, and touch accessibility.
 class CustomTextField extends StatelessWidget {
   final String label;
   final String? hint;
@@ -38,7 +36,6 @@ class CustomTextField extends StatelessWidget {
     this.initialValue,
   });
 
-  /// Factory constructor optimized for numeric & decimal inputs (Liters, Cash, Rates).
   factory CustomTextField.numeric({
     required String label,
     String? hint,

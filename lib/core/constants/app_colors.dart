@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-/// AppColors defines the soft, farm-friendly palette for Dairy Khata.
-/// High accessibility and soft farm aesthetics.
 class AppColors {
   AppColors._();
 

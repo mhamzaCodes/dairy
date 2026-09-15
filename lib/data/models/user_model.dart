@@ -1,6 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 
-/// User Model representing a Dairy Farmer profile in Firebase Auth & Firestore.
 class UserModel {
   final String uid;
   final String name;
@@ -18,7 +17,7 @@ class UserModel {
     required this.createdAt,
   });
 
-  /// Factory constructor to parse Firestore documents into UserModel
+
   factory UserModel.fromMap(Map<String, dynamic> map, String uid) {
     DateTime parseDate(dynamic date) {
       if (date is Timestamp) return date.toDate();
@@ -36,7 +35,6 @@ class UserModel {
     );
   }
 
-  /// Converts UserModel instance to a Firestore Map
   Map<String, dynamic> toMap() {
     return {
       'uid': uid,
@@ -48,7 +46,6 @@ class UserModel {
     };
   }
 
-  /// Factory constructor for JSON deserialization
   factory UserModel.fromJson(Map<String, dynamic> json) {
     return UserModel(
       uid: json['uid'] ?? '',
@@ -62,7 +59,6 @@ class UserModel {
     );
   }
 
-  /// Converts UserModel instance to JSON map
   Map<String, dynamic> toJson() {
     return {
       'uid': uid,

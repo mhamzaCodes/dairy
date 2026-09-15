@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
 import '../constants/app_colors.dart';
 
-/// Accessible Primary Action Button for Dairy Khata.
-/// Designed with a large touch target (min 54px) for farm usability.
 class CustomPrimaryButton extends StatelessWidget {
   final String text;
   final VoidCallback? onPressed;

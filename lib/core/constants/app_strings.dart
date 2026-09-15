@@ -1,5 +1,3 @@
-/// Centralized String Constants for Dairy Khata
-/// Supports future localization (English / Urdu / Punjabi)
 class AppStrings {
   AppStrings._();
 
@@ -22,9 +20,9 @@ class AppStrings {
   static const String registerTitle = 'Create Account';
   static const String registerSubtitle = 'Start tracking your milk production & sales';
   static const String emailLabel = 'Email Address';
-  static const String emailHint = 'enter your email';
+  static const String emailHint = 'Enter your email';
   static const String passwordLabel = 'Password';
-  static const String passwordHint = 'enter your password';
+  static const String passwordHint = 'Enter your password';
   static const String fullNameLabel = 'Full Name';
   static const String fullNameHint = 'e.g. Chaudhry Ahmed';
   static const String farmNameLabel = 'Farm Name';
@@ -59,7 +57,7 @@ class AppStrings {
   static const String totalPaid = 'Paid';
   static const String remainingBalance = 'Remaining Balance';
   static const String recordMilkSale = 'Record Milk Sale';
-  static const String recordPaymentReceived = 'Receive Cash Payment';
+  static const String recordPaymentReceived = 'Receive Payment';
   static const String milkQuantity = 'Milk Quantity (Liters)';
   static const String ratePerLiter = 'Rate per Liter (Rs)';
   static const String totalAmount = 'Total Amount';
