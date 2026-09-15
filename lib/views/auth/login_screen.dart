@@ -126,28 +126,28 @@ class _LoginScreenState extends State<LoginScreen> {
                           }
                         },
                       )),
-                  const SizedBox(height: 20),
+                  // const SizedBox(height: 20),
 
                   // Register Screen Navigation Link
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    children: [
-                      Text(
-                        "Don't have an account? ",
-                        style: const TextStyle(color: AppColors.textSecondary),
-                      ),
-                      GestureDetector(
-                        onTap: () => Get.to(() => const RegisterScreen()),
-                        child: const Text(
-                          'Register',
-                          style: TextStyle(
-                            color: AppColors.primary,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
+                  // Row(
+                  //   mainAxisAlignment: MainAxisAlignment.center,
+                  //   children: [
+                  //     Text(
+                  //       "Don't have an account? ",
+                  //       style: const TextStyle(color: AppColors.textSecondary),
+                  //     ),
+                  //     GestureDetector(
+                  //       onTap: () => Get.to(() => const RegisterScreen()),
+                  //       child: const Text(
+                  //         'Register',
+                  //         style: TextStyle(
+                  //           color: AppColors.primary,
+                  //           fontWeight: FontWeight.bold,
+                  //         ),
+                  //       ),
+                  //     ),
+                  //   ],
+                  // ),
                 ],
               ),
             ),
